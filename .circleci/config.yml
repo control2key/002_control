@@ -12,7 +12,8 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: ./src/chapter_3_2.py
+          command: |
+		python src/chapter_3_2.py
           name: Test
 
 workflows:
